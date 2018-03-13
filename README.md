@@ -55,6 +55,6 @@ Updtea by 朱云
 
 Apache License 2.0，详情见 [LICENSE](LICENSE) 文件。
 
-如果觉得这份文档对你有帮助，请微信扫描下方的二维码进行捐赠，谢谢！
+如果觉得这份文档对你有帮助，请微信扫描下方的二维码进行捐赠(加我好友)或者Email我： zhuchance@126.com ，谢谢！
 
 ![donate](./pics/zhuyun.jpg) 
