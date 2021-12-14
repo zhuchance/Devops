@@ -65,7 +65,7 @@ EOF
 cat >/etc/docker/daemon.json   <<'HERE'
 
 {
-  "registry-mirrors": ["https://kuamavit.mirror.aliyuncs.com", "https://registry.docker-cn.com", "https://docker.mirrors.ustc.edu.cn"], 
+  "registry-mirrors": ["https://kuamavit.mirror.aliyuncs.com", "https://registry.docker-cn.com", "https://docker.mirrors.ustc.edu.cn","https://26uyfxri.mirror.aliyuncs.com"], 
   "max-concurrent-downloads": 10,
   "log-driver": "json-file",
   "log-level": "warn",
