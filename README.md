@@ -8,3 +8,9 @@
 
 1. nginx
 这个nginx基于alpine镜像，添加了busybox-extras使之可以执行常用的ping、telnet、curl、netstart，vi等；修改时区为Shanghai。
+  ```bash
+  ##hub #
+  docker pull zhuchance/nginx:alpine
+  ##aliyun #
+  docker pull registry.cn-hangzhou.aliyuncs.com/cou/nginx
+  ```
