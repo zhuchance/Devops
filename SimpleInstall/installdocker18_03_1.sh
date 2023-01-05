@@ -15,6 +15,15 @@ SERVICENAME=docker
 
 mkdir -p /etc/docker/
 
+# add get docker-static file
+wget https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/static/stable/x86_64/docker-20.10.18.tgz
+if [[ "$?" -eq 0 ]] ; then
+    echo "$1 succeful!"
+    exit 0;
+fi
+curl -O https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/static/stable/x86_64/docker-20.10.18.tgz
+
+
 if [ $# -ne 1 ]; then
   usage
   exit 1
