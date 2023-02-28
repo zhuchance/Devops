@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="888658ed-67d7-40e2-93b8-722aed29d667" name="arch" url="http://arch/">
+        <fileTransfer rootFolder="/home/dev/go" accessType="SFTP" host="arch" port="22" sshConfigId="ceecf40f-4e1d-4f98-9dfc-2cf2dbf37a1d" sshConfig="arch" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

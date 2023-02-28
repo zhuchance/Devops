@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="quickinstall">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/quickinstall/kube-prometheus-qiye-weixin-v0.6.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/quickinstall/rook-1.9.2-aliyun.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
